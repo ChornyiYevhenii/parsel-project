@@ -1,0 +1,32 @@
+.page-header {
+    background-color: aqua;
+    height: 300px;}
+   
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+.nav-item {
+border-radius: 50%;
+background-color: black;
+flex-basis: calc((100% - 2 * 50px) / 3);
+}
+
+.nav-link {
+    display: block;
+    font-size: 35px;
+    
+    color: tomato;
+    font-weight: 700;
+}
